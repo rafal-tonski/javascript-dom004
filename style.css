@@ -1,0 +1,33 @@
+button {
+    width: 300px;
+    height: 80px;
+    border: 4px dotted black;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+    display: block;
+    transition: all .3s;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+button.triple:hover {
+    background-color: red;
+}
+
+li {
+    font-size: 25px;
+    width: 100px;
+    text-align: center;
+}
+
+.triple {
+    color: red;
+    border: red solid 2px;
+}
+
